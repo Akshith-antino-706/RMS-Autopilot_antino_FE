@@ -596,12 +596,6 @@ function TodayFlow({ auth, profile, unitState, history, onAssessmentComplete }) 
           <div className="prose">
             <div className="sectionTitle">Concept</div>
             <div dangerouslySetInnerHTML={{ __html: mdBold(unit.content.concept) }} />
-
-            <div className="sectionTitle">Practical</div>
-            <div dangerouslySetInnerHTML={{ __html: mdBold(unit.content.practical) }} />
-
-            <div className="sectionTitle">Scenario</div>
-            <div dangerouslySetInnerHTML={{ __html: mdBold(unit.content.scenario) }} />
           </div>
 
           <div className="btnRow">
